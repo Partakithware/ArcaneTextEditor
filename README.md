@@ -22,7 +22,7 @@ What this is not
 
     The mapping can be reverse-engineered or brute-forced if someone knows or guesses the structure.
 
-    It’s an obfuscation tool designed to make data unreadable without the mapping, but it does not guarantee confidentiality or integrity.
+    It’s an obfuscation tool designed to make data unreadable via a transformation that renders data incomprehensible without the correct mapping, but it does not guarantee confidentiality or integrity.
 
     It is vulnerable to analysis if patterns are visible, or if the mapping leaks.
 
