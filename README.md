@@ -3,6 +3,12 @@ What is this?
 
 ArcaneText is a tool to encode and decode text files using a custom byte-to-byte mapping, defined by the user. It replaces each character’s byte in your text with a user-configurable sequence of bytes (often hex codes). This transforms readable text into an obfuscated byte sequence, and vice versa, based on your mapping.
 
+Example: Included! 
+
+main_custom.cpp is the same as main.cpp, but its custom mapped using ArcaneText + a custom mapping. I am not going to provide the correct mapping,
+so take a swing at it and try to get it back to normal if you want. This provides a good example of how ArcaneText works in my opinion.
+
+
 The project includes a GTK UI to load/save text files, generate or edit the mapping, and save/load the mapping as JSON.
 What does it do?
 
