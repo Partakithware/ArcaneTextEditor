@@ -81,4 +81,3 @@ Summary
 
 ArcaneText is a user-driven byte substitution tool for obfuscating text. It trades simplicity and control for no real security. Use it for light obfuscation or private data-sharing scenarios where strong encryption is not required.
 
-If you want help generating example mappings or usage instructions, I can provide those too.
