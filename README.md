@@ -79,7 +79,7 @@ g++ -std=c++17 arcane_text.cpp -o arcane_text `pkg-config --cflags --libs gtk+-3
 
 corrected-build-line:
 ```
-g++ -std=c++17 main.cpp -o arcane_text $(pkg-config --cflags --libs gtk+-3.0 json-c)
+g++ -std=c++17 main.cpp -o arcane_text $(pkg-config --cflags --libs gtk+-3.0 gtksourceview-3.0 json-c)
 ```
 
 Summary
