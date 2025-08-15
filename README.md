@@ -77,6 +77,11 @@ Build with your favorite C++ compiler and GTK 3 development libraries installed.
 g++ -std=c++17 arcane_text.cpp -o arcane_text `pkg-config --cflags --libs gtk+-3.0 json-c`
 ./arcane_text
 
+corrected-build-line:
+```
+g++ -std=c++17 main.cpp -o arcane_text $(pkg-config --cflags --libs gtk+-3.0 json-c)
+```
+
 Summary
 
 ArcaneText is a user-driven byte substitution tool for obfuscating text. It trades simplicity and control for no real security. Use it for light obfuscation or private data-sharing scenarios where strong encryption is not required.
