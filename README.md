@@ -6,7 +6,7 @@ ArcaneText is a tool to encode and decode text files using a custom byte-to-byte
 Example: Included as main_custom.cpp, it is already custom mapped and is the direct same as main.cpp beyond that! 
 
 main_custom.cpp is the same as main.cpp, but its custom mapped using ArcaneText + a custom mapping. I am not going to provide the correct mapping,
-so take a swing at it and try to get it back to normal if you want. This provides a good example of how ArcaneText works in my opinion.
+so take a swing at it and try to get it back to normal if you want. This provides a good example of how ArcaneText works in my opinion. I will say its a direct 1 to 3. Not variable.
 
 
 The project includes a GTK UI to load/save text files, generate or edit the mapping, and save/load the mapping as JSON.
